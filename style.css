@@ -1,0 +1,20 @@
+.container, .page{
+    position: absolute;
+    /* 他的父元素是position: relative;的元素，如果没有会继续向上查找 */
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.page__bd{
+    height: 100%;
+    background-color: #fff;
+    overflow-y: hidden;
+    /* y轴 */
+}
+.tab{
+    display: none;
+}
+.tab .show{
+    display: block;
+}
